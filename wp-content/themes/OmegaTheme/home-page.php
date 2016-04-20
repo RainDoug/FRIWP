@@ -17,10 +17,10 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-4 logo">
-						<img src='<?php the_field(); ?>' class="img-responsive" alt="Responsive image">
+					<div class="col-md-8 logo">
+						<img src='<?php the_field(logo); ?>' class="img-responsive" alt="Responsive image">
 					</div>
-					<div class="col-md-8 menu">
+					<div class="col-md-4 menu">
 						<?php wp_nav_menu(); ?>
 					</div>
 

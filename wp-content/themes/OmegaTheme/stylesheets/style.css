@@ -950,8 +950,7 @@ object {
   display: block;
 }
 
-/* line 110, ../sass/style.scss */
-.col-md-4.logo {
-  max-width: 100%;
-  height: auto;
+/* line 111, ../sass/style.scss */
+.col-md-4.menu .menu li {
+  display: inline-block;
 }
