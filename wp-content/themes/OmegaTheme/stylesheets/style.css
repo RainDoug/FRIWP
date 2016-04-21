@@ -954,3 +954,8 @@ object {
 .col-md-4.menu .menu li {
   display: inline-block;
 }
+
+/* line 117, ../sass/style.scss */
+.topLogin #loginform {
+  display: inline-flex;
+}

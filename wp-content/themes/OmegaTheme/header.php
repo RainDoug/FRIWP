@@ -28,8 +28,9 @@
 <div id="page" class="site container">
 	<header id="masthead" class="site-header" role="banner">
 		
-
-		
+<div class="topLogin">
+	<?php wp_login_form(); ?>
+</div>	
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
