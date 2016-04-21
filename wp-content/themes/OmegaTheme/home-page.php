@@ -31,7 +31,7 @@ get_header(); ?>
 
 
 			<ul class="nav nav-tabs" id="myTab">
-			  <li class="active"><a data-target="#home" data-toggle="tab">Home</a></li>
+			  <li class="active"><a data-target="#home" data-toggle="tab"></a></li>
 			  <li><a data-target="#profile" data-toggle="tab">Profile</a></li>
 			  <li><a data-target="#messages" data-toggle="tab">Messages</a></li>
 			  <li><a data-target="#settings" data-toggle="tab">Settings</a></li>
@@ -49,3 +49,8 @@ get_header(); ?>
 			</div>
 
 <?php get_footer(); ?>
+
+
+
+
+echo get_field($field_name);
