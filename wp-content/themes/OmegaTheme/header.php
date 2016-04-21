@@ -25,12 +25,9 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="site container">
+<div id="page" class="site container-fluid">
 	<header id="masthead" class="site-header" role="banner">
-		
-<div class="topLogin">
-	<?php wp_login_form(); ?>
-</div>	
+	
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

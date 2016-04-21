@@ -950,12 +950,49 @@ object {
   display: block;
 }
 
-/* line 111, ../sass/style.scss */
-.col-md-4.menu .menu li {
-  display: inline-block;
+/* line 109, ../sass/styles.scss */
+a:link, a:visited, a:hover, a:active {
+  outline: none;
+  text-decoration: none;
 }
 
-/* line 117, ../sass/style.scss */
-.topLogin #loginform {
-  display: inline-flex;
+/* line 110, ../sass/styles.scss */
+a:link {
+  color: #001382;
+}
+
+/* line 111, ../sass/styles.scss */
+a:visited {
+  color: #001382;
+}
+
+/* line 112, ../sass/styles.scss */
+a:hover {
+  color: #001382;
+}
+
+/* line 113, ../sass/styles.scss */
+a:active {
+  color: #277FFA;
+}
+
+/* line 115, ../sass/styles.scss */
+.container-header {
+  padding-left: 10%;
+}
+
+/* line 120, ../sass/styles.scss */
+.col-md-7.menu .menu ul {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 124, ../sass/styles.scss */
+.col-md-7.menu .menu li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  font-size: large;
+  position: relative;
+  top: 50%;
+  transform: translateY(25%);
 }

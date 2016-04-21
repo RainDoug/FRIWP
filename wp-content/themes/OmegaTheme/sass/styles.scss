@@ -106,17 +106,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import "media/media";
 
-.col-md-4.menu{
+a:link ,a:visited ,a:hover, a:active {outline:none;text-decoration:none;}
+a:link {color:#001382 }
+a:visited {color:#001382 }
+a:hover {color:#001382}
+a:active {color:#277FFA }
+
+.container-header{
+	padding-left: 10%
+}
+.col-md-7.menu{
 	.menu{
-	li{
-		display: inline-block;
+		ul{
+			padding: 0px;
+			margin: 0px;
+		}
+		li{
+			list-style-type: none;
+			display: inline-block;
+			padding: 10px;
+			font-size: large;
+			position: relative;
+  			top: 50%;
+  			transform: translateY(25%);
 	}
 }
 }
-.topLogin{
-	#loginform{
-		display: inline-flex;
-}
-}
+
 
 
