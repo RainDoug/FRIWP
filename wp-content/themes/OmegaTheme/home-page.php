@@ -25,13 +25,24 @@ get_header(); ?>
 
 				</div>
 			</div>
-			<div class="container-fluid">
+			<div class="container-fluid body">
 			<div class="row">
 			<div class="col-md-12 tabs">
-
-
+			<?php
+// check if the flexible content field has rows of data
+if (have_rows('tab')):
+// loop through the rows of data
+    while (have_rows('tab')):
+        the_row();
+?>
 			<ul class="nav nav-tabs" id="myTab">
-			  <li class="active"><a data-target="#home" data-toggle="tab"></a></li>
+			  <li class="active"><a data-target="#home" data-toggle="tab"><?php
+                    the_sub_field('tab_title');?></a></li>
+
+
+
+
+
 			  <li><a data-target="#profile" data-toggle="tab">Profile</a></li>
 			  <li><a data-target="#messages" data-toggle="tab">Messages</a></li>
 			  <li><a data-target="#settings" data-toggle="tab">Settings</a></li>
@@ -48,9 +59,15 @@ get_header(); ?>
 			</div>
 			</div>
 
+<?php
+endwhile;
+endif;
+?>
+
 <?php get_footer(); ?>
 
 
 
 
-echo get_field($field_name);
+        
+
