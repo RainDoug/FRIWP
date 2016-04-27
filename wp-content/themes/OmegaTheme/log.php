@@ -1,8 +1,4 @@
-floridaregional.com
+http://dev.weissinsuranceagency.com.php56-22.dfw3-2.websitetestlink.com/
 user rainman
-pass D655FLtown954
+pass zxY2n2Wdx$ntLSnQ9y
 
-ftp
-ftp3.ftptoyoursite.com
-floridaregional
-D655FLtown954
